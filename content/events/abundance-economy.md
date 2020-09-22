@@ -2,8 +2,8 @@
 title: Abundance Economy by 2030
 excerpt: An Open Space discussion/workshop led by Roberto.
 date: 2020-09-22T00:00:00.000Z
-start_time: "1730"
-end_time: "0000"
+start_time: 1730
+end_time: 1800
 thumbnail: /uploads/events/vision-train_orig.jpg
 tags:
   - discussion
