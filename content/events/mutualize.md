@@ -6,3 +6,4 @@ start_time: 1730
 end_time: "0000"
 tags: ["presentation", "demo", "alternative economics"]
 ---
+Primarily introduction to tech tool for mutual credit.. but half the presentation covers my community experience.. and how i arrived here 
