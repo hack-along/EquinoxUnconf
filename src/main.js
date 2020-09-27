@@ -2,6 +2,8 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 import moment from 'moment-timezone';
 import '~/assets/css/main.scss'
+import VueYouTubeEmbed from 'vue-youtube-embed'
+
 
 import DefaultLayout from '~/layouts/Default.vue'
 import HeroLayout from '~/layouts/Hero.vue'
@@ -62,6 +64,8 @@ export default function (Vue, {
   Vue.component('sprite', Sprite)
   Vue.use(VueScrollactive);
   //initilize other plugins
+  Vue.use(VueYouTubeEmbed) // To embed a video use:  <youtube :video-id="videoId"></youtube>
+
 
 
   Vue.filter('formatDate', function (value, format) {

@@ -51,4 +51,10 @@ From there on you can access the CMS and add or edit your own events. The markdo
         - new economy
     ---
 
+### Adding Vue components to markdown content
+
+Events _(content/events/event.md)_ & Pages _(content/pages/page.md)_ are set-up using [Vue-Remakr](https://gridsome.org/plugins/@gridsome/vue-remark) plug-in.
+
+This plug-in not only translates markdown into html, it also allows you to **use Vue components directly in the markdown file**.
+
 Have fun!
