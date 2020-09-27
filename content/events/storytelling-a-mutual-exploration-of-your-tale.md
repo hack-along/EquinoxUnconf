@@ -2,7 +2,7 @@
 title: "Storytelling: a mutual exploration of your tale"
 excerpt: "A distributed workshop led by Monique "
 date: 2020-09-22T00:00:00.000Z
-start_time: TBA
+start_time: 1700
 end_time: "0000"
 tags:
   - community
