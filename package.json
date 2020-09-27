@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "gridsome": "^0.7.20",
-    "vue-scrollactive": "^0.9.3"
+    "vue-scrollactive": "^0.9.3",
+    "vue-youtube-embed": "^2.2.2"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
