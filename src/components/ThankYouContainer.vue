@@ -17,17 +17,17 @@ export default {
         "Maija",
         "Ximena",
         "Rishi",
-        "Vadim"
+        "Vadim",
         "Josh",
         "Ome",
         "Roberto",
         "Alban",
-        "Julian"
+        "Julian",
         "Ale",
         "Polto",
-        "Thomas"
+        "Thomas",
         "Tibi",
-        "Nienke"
+        "Nienke",
         "Sam",
         "Manoj",
         "Aditi",
@@ -37,8 +37,8 @@ export default {
         "Laura",
         "Federico",
         "Will",
-        "Valentia"
-        "Kay"
+        "Valentia",
+        "Kay",
         "all the people",
       ],
     };
