@@ -15,10 +15,30 @@ export default {
       thankyou: [
         "Monique",
         "Maija",
+        "Ximena",
         "Rishi",
+        "Vadim"
         "Josh",
         "Ome",
         "Roberto",
+        "Alban",
+        "Julian"
+        "Ale",
+        "Polto",
+        "Thomas"
+        "Tibi",
+        "Nienke"
+        "Sam",
+        "Manoj",
+        "Aditi",
+        "Severin",
+        "Matteo",
+        "Ken",
+        "Laura",
+        "Federico",
+        "Will",
+        "Valentia"
+        "Kay"
         "all the people",
       ],
     };
