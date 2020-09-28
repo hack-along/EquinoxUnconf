@@ -6,4 +6,6 @@ start_time: 1730
 end_time: "0000"
 tags: ["presentation", "demo", "alternative economics"]
 ---
-Primarily introduction to tech tool for mutual credit.. but half the presentation covers my community experience.. and how i arrived here 
+An introduction to asset backed mutual credit led by Thomas, framed from his personal journey and community experiences leading to how he arrived at this project
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7QBeNFjfNhM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
