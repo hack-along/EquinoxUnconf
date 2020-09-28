@@ -22,6 +22,7 @@ export default {
         "Ome",
         "Roberto",
         "Alban",
+        "Adrian",
         "Julian",
         "Ale",
         "Polto",
