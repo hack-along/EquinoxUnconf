@@ -9,3 +9,7 @@ tags:
   - workshop
   - presentation
 ---
+
+A discussion on complex adaptive systems and the exponential future led by Severin of burn club network and [Local host](https://www.local-host.io/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WgqAnaOORGA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
