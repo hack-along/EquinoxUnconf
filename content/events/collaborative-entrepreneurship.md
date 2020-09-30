@@ -6,7 +6,7 @@ start_time: 2000
 tags: ["discussion", "workshop", "entrepreneurship", "self-organization"]
 ---
 
-A discussion on collaborative entrapeneurship led by Tibi from [Sensorica](sensorica.co)
+A discussion on collaborative entrapeneurship led by Tibi from [Sensorica](http://www.sensorica.co)
 
 Learn how to build open ventures, structured by stigmergy, or hybrid ventures that borrow functionalities from the p2p world and operate within the traditional world. 
 
