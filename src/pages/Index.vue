@@ -1,61 +1,129 @@
 <template>
   <LayoutCurtains>
     <template slot="hero">
-      <hero-curtains :bg="heroBG"></hero-curtains>
+      <perspective-wrapper></perspective-wrapper>
     </template>
 
     <!-- intro section using grapQL -->
-    <div id="unconference" class="my-40">
+    <div
+      id="unconference"
+      class="my-40"
+    >
       <h1>{{page.intro.title}}</h1>
       <span class="subtitle">{{page.intro.subtitle}}</span>
-      <article class="prose prose-lg max-w-full" v-html="page.intro.content"></article>
+      <article
+        class="prose prose-lg max-w-full"
+        v-html="page.intro.content"
+      ></article>
     </div>
 
     <!-- intro cards -->
-    <div v-if="page.card" id="teach" class="card-grid-3 my-40">
-      <card v-if="page.card.teach" v-bind="page.card.teach"></card>
-      <card v-if="page.card.learn" v-bind="page.card.learn"></card>
-      <card v-if="page.card.share" v-bind="page.card.share"></card>
+    <div
+      v-if="page.card"
+      id="teach"
+      class="card-grid-3 my-40"
+    >
+      <card
+        v-if="page.card.teach"
+        v-bind="page.card.teach"
+      ></card>
+      <card
+        v-if="page.card.learn"
+        v-bind="page.card.learn"
+      ></card>
+      <card
+        v-if="page.card.share"
+        v-bind="page.card.share"
+      ></card>
     </div>
 
     <!-- agenda -->
-    <div id="learn" class="flex flex-wrap my-40">
+    <div
+      id="learn"
+      class="flex flex-wrap my-40"
+    >
       <!-- the events are dynamically added from the /content/events files -->
-      <event-container :title="'Agenda'" :subtitle="'teach and learn'" />
+      <event-container
+        :title="'Agenda'"
+        :subtitle="'teach and learn'"
+      />
     </div>
 
-    <div id="share" class="my-40">
+    <div
+      id="share"
+      class="my-40"
+    >
       <!-- share section -->
       <div>
         <h2>{{page.share.title}}</h2>
         <span class="subtitle">{{page.share.subtitle}}</span>
-        <article class="prose max-w-full" v-html="page.share.content"></article>
+        <article
+          class="prose max-w-full"
+          v-html="page.share.content"
+        ></article>
       </div>
 
       <!-- Emoji cards -->
-      <div v-if="page.card" id="teach" class="card-grid-1 mt-10 mb-5">
-        <card v-if="page.card.role1" v-bind="page.card.role0"></card>
+      <div
+        v-if="page.card"
+        id="teach"
+        class="card-grid-1 mt-10 mb-5"
+      >
+        <card
+          v-if="page.card.role1"
+          v-bind="page.card.role0"
+        ></card>
       </div>
-      <div v-if="page.card" id="teach" class="card-grid-2 mb-10">
-        <card v-if="page.card.role1" v-bind="page.card.role1"></card>
-        <card v-if="page.card.role2" v-bind="page.card.role2"></card>
+      <div
+        v-if="page.card"
+        id="teach"
+        class="card-grid-2 mb-10"
+      >
+        <card
+          v-if="page.card.role1"
+          v-bind="page.card.role1"
+        ></card>
+        <card
+          v-if="page.card.role2"
+          v-bind="page.card.role2"
+        ></card>
       </div>
     </div>
-    <div id="FAQ" class="my-40">
+    <div
+      id="FAQ"
+      class="my-40"
+    >
       <!-- FAQ?? -->
       <div>
         <h2>{{page.faq.title}}</h2>
         <span class="subtitle">{{page.faq.subtitle}}</span>
-        <article v-if="page.faq.content" class="prose max-w-full" v-html="page.faq.content"></article>
+        <article
+          v-if="page.faq.content"
+          class="prose max-w-full"
+          v-html="page.faq.content"
+        ></article>
       </div>
       <h2 class="mt-20">{{page.signals.title}}</h2>
       <span class="subtitle">{{page.signals.subtitle}}</span>
-      <article v-if="page.signals.content" class="prose max-w-full" v-html="page.signals.content"></article>
+      <article
+        v-if="page.signals.content"
+        class="prose max-w-full"
+        v-html="page.signals.content"
+      ></article>
       <!-- Animated sprites -->
       <div class="card-grid-3 my-10">
-        <sprite v-if="page.signal.feel" v-bind="page.signal.feel"></sprite>
-        <sprite v-if="page.signal.gotit" v-bind="page.signal.gotit"></sprite>
-        <sprite v-if="page.signal.move" v-bind="page.signal.move"></sprite>
+        <sprite
+          v-if="page.signal.feel"
+          v-bind="page.signal.feel"
+        ></sprite>
+        <sprite
+          v-if="page.signal.gotit"
+          v-bind="page.signal.gotit"
+        ></sprite>
+        <sprite
+          v-if="page.signal.move"
+          v-bind="page.signal.move"
+        ></sprite>
       </div>
     </div>
   </LayoutCurtains>
@@ -90,7 +158,9 @@ query Blocks {
 
 
 <script>
+import PerspectiveWrapper from "../components/PerspectiveWrapper.vue";
 export default {
+  components: { PerspectiveWrapper },
   metaInfo() {
     return {
       meta: [
