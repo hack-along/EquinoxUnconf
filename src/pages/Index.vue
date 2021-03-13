@@ -1,13 +1,14 @@
 <template>
   <LayoutCurtains>
     <template slot="hero">
-      <perspective-wrapper></perspective-wrapper>
-    </template>
 
+      <perspective-wrapper></perspective-wrapper>
+
+    </template>
     <!-- intro section using grapQL -->
     <div
       id="unconference"
-      class="my-40"
+      class="my-40 container"
     >
       <h1>{{page.intro.title}}</h1>
       <span class="subtitle">{{page.intro.subtitle}}</span>
@@ -16,7 +17,6 @@
         v-html="page.intro.content"
       ></article>
     </div>
-
     <!-- intro cards -->
     <div
       v-if="page.card"
@@ -42,11 +42,11 @@
       id="learn"
       class="flex flex-wrap my-40"
     >
-      <!-- the events are dynamically added from the /content/events files -->
-      <event-container
-        :title="'Agenda'"
-        :subtitle="'teach and learn'"
-      />
+      <h1>Learn</h1>
+      <div class="prose prose-lg max-w-full block">
+        <p>🌻</p>
+      </div>
+
     </div>
 
     <div
