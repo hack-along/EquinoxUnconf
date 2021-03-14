@@ -59,6 +59,31 @@
 
     </div>
 
+    <!-- Signals -->
+      <h2 class="mt-20">{{page.signals.title}}</h2>
+      <span class="subtitle">{{page.signals.subtitle}}</span>
+      <article
+        v-if="page.signals.content"
+        class="prose max-w-full"
+        v-html="page.signals.content"
+      ></article>
+      <!-- Animated sprites -->
+      <div class="card-grid-3 my-10">
+        <sprite
+          v-if="page.signal.feel"
+          v-bind="page.signal.feel"
+        ></sprite>
+        <sprite
+          v-if="page.signal.gotit"
+          v-bind="page.signal.gotit"
+        ></sprite>
+        <sprite
+          v-if="page.signal.move"
+          v-bind="page.signal.move"
+        ></sprite>
+      </div>
+
+
     <div
       id="share"
       class="my-40"
@@ -113,28 +138,7 @@
           v-html="page.faq.content"
         ></article>
       </div>
-      <h2 class="mt-20">{{page.signals.title}}</h2>
-      <span class="subtitle">{{page.signals.subtitle}}</span>
-      <article
-        v-if="page.signals.content"
-        class="prose max-w-full"
-        v-html="page.signals.content"
-      ></article>
-      <!-- Animated sprites -->
-      <div class="card-grid-3 my-10">
-        <sprite
-          v-if="page.signal.feel"
-          v-bind="page.signal.feel"
-        ></sprite>
-        <sprite
-          v-if="page.signal.gotit"
-          v-bind="page.signal.gotit"
-        ></sprite>
-        <sprite
-          v-if="page.signal.move"
-          v-bind="page.signal.move"
-        ></sprite>
-      </div>
+      
     </div>
   </LayoutCurtains>
 </template>
