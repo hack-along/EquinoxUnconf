@@ -17,6 +17,18 @@
         v-html="page.intro.content"
       ></article>
     </div>
+
+    <!-- FAQ?? -->
+      <div>
+        <h2>{{page.faq.title}}</h2>
+        <span class="subtitle">{{page.faq.subtitle}}</span>
+        <article
+          v-if="page.faq.content"
+          class="prose max-w-full"
+          v-html="page.faq.content"
+        ></article>
+      </div>
+
     <!-- intro cards -->
     <div
       v-if="page.card"
@@ -128,16 +140,7 @@
       id="FAQ"
       class="my-40"
     >
-      <!-- FAQ?? -->
-      <div>
-        <h2>{{page.faq.title}}</h2>
-        <span class="subtitle">{{page.faq.subtitle}}</span>
-        <article
-          v-if="page.faq.content"
-          class="prose max-w-full"
-          v-html="page.faq.content"
-        ></article>
-      </div>
+      
       
     </div>
   </LayoutCurtains>

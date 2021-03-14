@@ -1,6 +1,5 @@
 ---
-title: FAQ
-subtitle: Some additional info
+title: Details
 ---
 
 🌕 **_ Where is the Equinox Unconference happening?_**
