@@ -4,7 +4,7 @@ title: Self-facillliting flow
 
 #### Un-Programme
 
-This track has no agenda; Channel names change as "dynamic signals" calling your attention. Gather in small groups based on shared interest.
+This track has no agenda; Channel names change as "dynamic signals" calling your attention. Gather in small groups based on shared purpose and interest.
 
 Dynamic channel names: Channels can easily be created in Discord for new conversations. As conversations drift and topics change rename them by right clicking and selecting "edit channel". This is a very easy way to signal whats going on to others elsewhere in the digital space. 
 
