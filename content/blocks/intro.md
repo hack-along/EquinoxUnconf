@@ -1,5 +1,5 @@
 ---
-title: Equinox Unconference II
+title: Spring Equinox Unconference (second iteration)
 subtitle: 20th March 2021
 ---
 
