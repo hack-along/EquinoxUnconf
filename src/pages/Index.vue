@@ -8,7 +8,7 @@
     <!-- intro section using grapQL -->
     <div
       id="unconference"
-      class="my-40 container"
+      class="my-20"
     >
       <h1>{{page.intro.title}}</h1>
       <span class="subtitle">{{page.intro.subtitle}}</span>
@@ -40,7 +40,7 @@
     <!-- agenda -->
     <div
       id="learn"
-      class="flex flex-wrap my-40"
+      class="flex flex-wrap my-20"
     >
 
       <!-- share section -->
@@ -48,13 +48,13 @@
         <h2>{{page.learn.title}}</h2>
         <span class="subtitle">{{page.learn.subtitle}}</span>
         <article
-          class="prose max-w-full"
+          class="prose prose-lg max-w-full"
           v-html="page.learn.content"
         ></article>
       </div>
       <tag-nav
         notitle
-        class="mt-10"
+        class="mt-20"
       />
 
     </div>
