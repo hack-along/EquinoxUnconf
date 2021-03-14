@@ -1,8 +1,8 @@
 ---
 title: Teach
-img: "panda.png"
+img: "mandelbrotted_color.jpg"
 ---
 
 Share an experience of open space with a diverse and interesting group who are co-creating and organising themselves around a shared collection of narratives.
 
-Feel free to interact during sessions and contribute to each others journey by sharing stories and ideas together, or simply jump in and organise your own session. All kinds of contribution are welcome.
+Feel free to interact during informal sessions and contribute to each others journey by sharing stories and ideas together, or simply jump in and start your own session. All kinds of contribution are welcome.
