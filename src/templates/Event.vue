@@ -1,20 +1,32 @@
 <template>
   <Layout>
-    <div class="my-12" v-if="$page.event.thumbnail">
-      <g-image :src="$page.event.thumbnail" height="500" fit="contain" />
+    <div
+      class="my-12"
+      v-if="$page.event.thumbnail"
+    >
+      <g-image
+        :src="$page.event.thumbnail"
+        height="500"
+        fit="contain"
+      />
     </div>
     <h1>{{ $page.event.title }}</h1>
     <div class="py-4 grid grid-cols-1">
       <strong>{{ $page.event.date | formatDate('dddd, Do MMMM') }}</strong>
       <div class="text-xl">
         {{ $page.event.start_time | formatTime }}
-        <span
-          v-if="$page.event.end_time"
-        >- {{ $page.event.end_time | formatTime }}</span>
+        <span v-if="$page.event.end_time">- {{ $page.event.end_time | formatTime }}</span>
       </div>
       <div class="flex pb-4 flex-wrap mt-4">
-        <div class="badge" v-for="tag in $page.event.tags" :key="tag.id">
-          <g-link class="badge-link" :to="tag.path">{{tag.id}}</g-link>
+        <div
+          class="badge"
+          v-for="tag in $page.event.tags"
+          :key="tag.id"
+        >
+          <g-link
+            class="badge-link"
+            :to="tag.path"
+          >{{tag.id}}</g-link>
         </div>
       </div>
       <div>
@@ -91,7 +103,7 @@ export default {
       let img =
         this.$page.event.thumbnail !== null
           ? this.$static.metadata.siteUrl + this.$page.event.thumbnail
-          : this.$static.metadata.siteUrl + "card.jpg";
+          : this.$static.metadata.siteUrl + "card2021.jpg";
       return img;
     },
     getUrl() {
