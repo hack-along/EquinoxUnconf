@@ -42,10 +42,20 @@
       id="learn"
       class="flex flex-wrap my-40"
     >
-      <h1>Learn</h1>
-      <div class="prose prose-lg max-w-full block">
-        <p>🌻</p>
+
+      <!-- share section -->
+      <div>
+        <h2>{{page.learn.title}}</h2>
+        <span class="subtitle">{{page.learn.subtitle}}</span>
+        <article
+          class="prose max-w-full"
+          v-html="page.learn.content"
+        ></article>
       </div>
+      <tag-nav
+        notitle
+        class="mt-10"
+      />
 
     </div>
 
