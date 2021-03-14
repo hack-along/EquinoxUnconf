@@ -13,17 +13,22 @@ import Footer from '~/layouts/partials/Footer.vue'
 import HeroContainer from '~/layouts/partials/HeroContainer.vue'
 import HeroCurtains from '~/layouts/partials/HeroCurtains.vue' //animation for equinox
 
+import Logo from '~/components/Logo.vue'
 import Card from '~/components/Card.vue'
 import EventContainer from '~/components/EventContainer.vue'
 import EventList from '~/components/EventList.vue'
 import TagNav from '~/components/TagNav.vue'
 
 import ThankYou from '~/components/ThankYouContainer.vue'
+import PerspectiveWrapper from '~/components/PerspectiveWrapper.vue' //animation for equinox
+
 
 import IndexPage from '~/pages/Index.vue'
 import Sprite from '~/components/Sprite.vue'
 
 import VueScrollactive from 'vue-scrollactive';
+
+import VueKinesis from 'vue-kinesis'
 
 
 
@@ -38,6 +43,9 @@ export default function (Vue, {
   Vue.component('Layout', DefaultLayout)
   Vue.component('LayoutHero', HeroLayout)
   Vue.component('LayoutCurtains', CurtainsLayout)
+  Vue.component('PerspectiveWrapper', PerspectiveWrapper)
+
+  Vue.component('Logo', Logo)
 
 
   Vue.component('IndexPage', IndexPage)
@@ -63,6 +71,7 @@ export default function (Vue, {
   //animation
   Vue.component('sprite', Sprite)
   Vue.use(VueScrollactive);
+  Vue.use(VueKinesis);
   //initilize other plugins
   Vue.use(VueYouTubeEmbed) // To embed a video use:  <youtube :video-id="videoId"></youtube>
 

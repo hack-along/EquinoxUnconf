@@ -9,16 +9,23 @@
           to="/"
           :title="$static.metadata.siteName"
         >
-          Equinox 22/09/2020
+          Equinox 20/03/2021
           <!-- <g-image src="../../static/logo.svg" width="50" height="50" alt="logo" fit="outside" /> -->
         </g-link>
       </div>
       <!-- end site title / logo -->
 
       <!-- mobile navigation toggle -->
-      <div class="block sm:hidden">
-        <button @click="toggle" class="nav-toggle">
-          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <div class="block md:hidden">
+        <button
+          @click="toggle"
+          class="nav-toggle"
+        >
+          <svg
+            class="fill-current h-3 w-3"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <title>Menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
@@ -30,17 +37,37 @@
 
       <scrollactive
         :class="open ? 'block': 'hidden'"
-        class="w-full sm:flex sm:items-center sm:w-auto flex-grow sm:flex-grow-0"
+        class="w-full md:flex md:items-center md:w-auto flex-grow md:flex-grow-0"
         active-class="active"
         :offset="120"
         :duration="100"
         bezier-easing-value="0,0,.58,1"
       >
-        <router-link to="/#unconference" class="nav-link scrollactive-item">unconference</router-link>
-        <router-link to="/#teach" class="nav-link scrollactive-item">teach</router-link>
-        <router-link to="/#learn" class="nav-link scrollactive-item">learn</router-link>
-        <router-link to="/#share" class="nav-link scrollactive-item">share</router-link>
-        <g-link to="/#FAQ" class="nav-link scrollactive-item">FAQ</g-link>
+        <router-link
+          to="/#unconference"
+          class="nav-link scrollactive-item"
+        >unconference</router-link>
+        <router-link
+          to="/#teach"
+          class="nav-link scrollactive-item"
+        >teach</router-link>
+        <router-link
+          to="/#learn"
+          class="nav-link scrollactive-item"
+        >learn</router-link>
+        <router-link
+          to="/#share"
+          class="nav-link scrollactive-item"
+        >share</router-link>
+        <g-link
+          to="/#FAQ"
+          class="nav-link scrollactive-item"
+        >FAQ</g-link>
+        <g-link
+          to="/2020-autumn"
+          class="nav-link scrollactive-item"
+        >2020</g-link>
+
       </scrollactive>
 
       <!-- End navigation Links-->
