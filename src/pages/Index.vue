@@ -125,10 +125,6 @@
         ></card>
       </div>
     </div>
-    
-      
-      
-    </div>
   </LayoutCurtains>
 </template>
 
