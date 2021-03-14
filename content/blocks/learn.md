@@ -24,7 +24,5 @@ This track has no agenda; Channel names change as "dynamic signals" calling your
 
 #### Themes
 
-Themes are emergent.
-
-Check out the tag cloud of topics from the [ 2020 autumn Equinox](/2020-autumn).
+Themes are emergent. Check out the tag cloud of topics from the [ 2020 autumn Equinox](/2020-autumn).
 </br>
