@@ -5,18 +5,27 @@
         <h2>{{title}}</h2>
         <span class="subtitle">{{subtitle}}</span>
       </div>
-      <g-link
+      <!-- <g-link
         href="/admin/"
         target="_blank"
         class="ml-auto py-2 px-4 border border-accent-600 hover:bg-accent-600 hover:text-white self-start"
       >
         <span>+ Add your own event</span>
-      </g-link>
+      </g-link> -->
     </div>
-    <tag-nav notitle class="mb-10" />
+    <tag-nav
+      notitle
+      class="mb-10"
+    />
 
-    <event-list v-if="$static.events.edges.length > 0" :events="$static.events" />
-    <div v-else class="p-4 mt-4">
+    <event-list
+      v-if="$static.events.edges.length > 0"
+      :events="$static.events"
+    />
+    <div
+      v-else
+      class="p-4 mt-4"
+    >
       <p>sorry, nothing to show at the moment!</p>
     </div>
   </div>
