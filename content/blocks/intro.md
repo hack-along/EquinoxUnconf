@@ -7,7 +7,7 @@ subtitle: 20th March 2021
 >
 > The time when the Earth day is equally divided between night and day.
 
-Spring Equinox summons us with its inviting warmth. At this significant point in time we synchronize to celebrate our place in life amidst natural forces which move the outer world as much as the inner. In the eternal search for balance we embrace paradox to leverage the potential inherent in our polarities. As light casts a shadow, so order breeds chaos. As the sun welcomes us, the night subsides. And, once more, the yin meets the yang.
+Spring Equinox summons us with an inviting warmth. At this significant point in time we synchronize to celebrate our place in life amidst natural forces which move the outer world as much as the inner. In the eternal search for balance we embrace paradox to leverage a potential inherent in our polarities. As light casts a shadow, so order breeds chaos. As the sun welcomes us, the night subsides. And, once more, the yin meets the yang.
 
 > #### Unconference
 >
