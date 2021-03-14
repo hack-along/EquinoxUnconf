@@ -1,4 +1,3 @@
 ---
-title: Share
-subtitle: Participate artfully
----
+title: Participation
+subtitle: Be artful
