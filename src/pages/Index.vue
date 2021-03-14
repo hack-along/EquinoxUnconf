@@ -17,11 +17,12 @@
         v-html="page.intro.content"
       ></article>
     </div>
+
     <!-- intro cards -->
     <div
       v-if="page.card"
       id="teach"
-      class="card-grid-3 my-40"
+      class="card-grid-3 my-10"
     >
       <card
         v-if="page.card.teach"
@@ -37,12 +38,21 @@
       ></card>
     </div>
 
-    <!-- agenda -->
-    <div
-      id="learn"
-      class="flex flex-wrap my-20"
-    >
+    <!-- Event details -->
+    <div id="FAQ" class="my-10"> 
+      <div>
+        <h2>{{page.faq.title}}</h2>
+        <span class="subtitle">{{page.faq.subtitle}}</span>
+        <article
+          v-if="page.faq.content"
+          class="prose max-w-full"
+          v-html="page.faq.content"
+        ></article>
+      </div>
+    </div>
 
+    <!-- agenda -->
+    <div id="learn" class="flex flex-wrap my-20">
       <!-- share section -->
       <div>
         <h2>{{page.learn.title}}</h2>
@@ -52,18 +62,34 @@
           v-html="page.learn.content"
         ></article>
       </div>
-      <tag-nav
-        notitle
-        class="mt-20"
-      />
-
+      <tag-nav notitle class="mt-5"/>
     </div>
 
-    <div
-      id="share"
-      class="my-40"
-    >
-      <!-- share section -->
+    <!-- Signals -->
+      <h2 class="mt-20">{{page.signals.title}}</h2>
+      <span class="subtitle">{{page.signals.subtitle}}</span>
+      <article
+        v-if="page.signals.content"
+        class="prose max-w-full"
+        v-html="page.signals.content"
+      ></article>
+    <!-- Animated sprites -->
+    <div class="card-grid-3 my-10">
+      <sprite
+        v-if="page.signal.feel"
+        v-bind="page.signal.feel"
+      ></sprite>
+      <sprite
+        v-if="page.signal.gotit"
+        v-bind="page.signal.gotit"
+      ></sprite>
+      <sprite
+        v-if="page.signal.move"
+        v-bind="page.signal.move"
+      ></sprite>
+    </div>
+    <!-- share section -->
+    <div id="share" class="my-10">
       <div>
         <h2>{{page.share.title}}</h2>
         <span class="subtitle">{{page.share.subtitle}}</span>
@@ -99,42 +125,9 @@
         ></card>
       </div>
     </div>
-    <div
-      id="FAQ"
-      class="my-40"
-    >
-      <!-- FAQ?? -->
-      <div>
-        <h2>{{page.faq.title}}</h2>
-        <span class="subtitle">{{page.faq.subtitle}}</span>
-        <article
-          v-if="page.faq.content"
-          class="prose max-w-full"
-          v-html="page.faq.content"
-        ></article>
-      </div>
-      <h2 class="mt-20">{{page.signals.title}}</h2>
-      <span class="subtitle">{{page.signals.subtitle}}</span>
-      <article
-        v-if="page.signals.content"
-        class="prose max-w-full"
-        v-html="page.signals.content"
-      ></article>
-      <!-- Animated sprites -->
-      <div class="card-grid-3 my-10">
-        <sprite
-          v-if="page.signal.feel"
-          v-bind="page.signal.feel"
-        ></sprite>
-        <sprite
-          v-if="page.signal.gotit"
-          v-bind="page.signal.gotit"
-        ></sprite>
-        <sprite
-          v-if="page.signal.move"
-          v-bind="page.signal.move"
-        ></sprite>
-      </div>
+    
+      
+      
     </div>
   </LayoutCurtains>
 </template>
@@ -216,7 +209,7 @@ export default {
   computed: {
     getCoverImage() {
       // @TODO: ADD A CARD FALLBACK IMG
-      return this.$static.metadata.siteUrl + "card.jpg";
+      return this.$static.metadata.siteUrl + "card2021.jpg";
     },
     getUrl() {
       return this.$static.metadata.siteUrl;

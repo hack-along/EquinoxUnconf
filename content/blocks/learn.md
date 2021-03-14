@@ -1,11 +1,12 @@
 ---
-title: Learn
-subtitle: "Everyone is a facilitator"
+title: Self-facillliting flow
 ---
 
 #### Un-Programme
 
-For this event, there is no agenda. We come together based on shared purpose and guided by emergent principles.
+This track has no agenda; Channel names change as "dynamic signals" calling your attention. Gather in small groups based on shared purpose and interest.
+
+**Dynamic channel names:** Channels can easily be created in Discord for new conversations. As conversations drift and topics change, rename them by right clicking and selecting "edit channel" to update them and let others know. This is a very easy way to signal whats going on in your little nook of the internet. 
 
 #### Purpose
 
@@ -16,14 +17,12 @@ For this event, there is no agenda. We come together based on shared purpose and
 
 #### Format guided by [open space principles](https://en.wikipedia.org/wiki/Open_Space_Technology)
 
-- Whoever comes is the right people
+- Whoever comes are the right people
 - Whatever happens, is the only thing that could have,
-- When it starts is the right time,
+- When it starts it's the right time,
 - When it’s over it’s over.
 
 #### Themes
 
-Themes are emergent.
-
-Check out the tag cloud of topics from the [ 2020 autumn Equinox](/2020-autumn).
+Themes are emergent. Check out the tag cloud of topics from the [ 2020 autumn Equinox](/2020-autumn).
 </br>
