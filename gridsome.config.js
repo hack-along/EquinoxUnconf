@@ -16,8 +16,8 @@ const postcssPlugins = [
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
 
 module.exports = {
-  siteName: 'Equinox Unconference | 22 Sep 2020 ',
-  siteDescription: "An open space to teach, learn and share",
+  siteName: 'Equinox Unconference | 20 Mar 2021 ',
+  siteDescription: "An open space to teach, learn and share. A game of artful participation.",
   siteUrl: "https://unconference.hackalong.io/",
   templates: {
     Tag: [{
