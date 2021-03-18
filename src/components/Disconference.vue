@@ -5,12 +5,12 @@
       <span class="subtitle">{{ subtitle }}</span>
     </div>
     <ul class="pl-1">
-      <li v-for="room in rooms" :key="room">
+      <li v-for="(room,index) in rooms" :key="index">
         <h3>{{ discorddata[room].name }}</h3>
    
           <span
-            v-for="participant in discorddata[room].participants"
-            :key="participant"
+            v-for="(participant,index) in discorddata[room].participants"
+            :key="index"
           >
             <img
               v-bind:src="participant.avatar"
