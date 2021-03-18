@@ -15,6 +15,7 @@
             <img
               v-bind:src="participant.avatar"
               v-bind:title="participant.name"
+              class="avatar"
             />
           </span>
       
@@ -43,9 +44,9 @@ export default {
   },
 
   created: function () {
-    console.log("Starting connection to discordnow server");
+    console.log("Starting connection to the disconference server");
 
-    this.connection = new WebSocket("ws://discordnow.herokuapp.com");
+    this.connection = new WebSocket("ws://disconference.herokuapp.com");
     let self = this;
 
     this.connection.onmessage = function (event) {
@@ -64,7 +65,7 @@ export default {
 
     this.connection.onopen = function (event) {
       console.log(event);
-      console.log("Successfully connected to the discordnow server...");
+      console.log("Successfully connected to the disconference server...");
     };
   },
 };
@@ -78,5 +79,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 </style>

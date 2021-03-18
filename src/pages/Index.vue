@@ -51,8 +51,8 @@
       </div>
     </div>
 
-    <div id="discord" class="my-10">
-      <discord-now :title="'Happening Now'" :subtitle="'Here is where the conversations are at...'" />
+    <div id="disconference" class="my-10">
+      <disconference :title="'Happening Now'" :subtitle="'Here is where the conversations are at...'" />
     </div>
 
 
@@ -162,10 +162,10 @@ query Blocks {
 
 
 <script>
-import DiscordNow from '../components/DiscordNow.vue';
+import Disconference from '../components/Disconference.vue';
 import PerspectiveWrapper from "../components/PerspectiveWrapper.vue";
 export default {
-  components: { PerspectiveWrapper, DiscordNow },
+  components: { PerspectiveWrapper, Disconference },
   metaInfo() {
     return {
       meta: [
