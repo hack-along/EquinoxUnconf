@@ -45,16 +45,12 @@
         <span class="subtitle">{{page.faq.subtitle}}</span>
         <article
           v-if="page.faq.content"
-          class="prose max-w-full"
+          class="prose max-w-full text-left"
           v-html="page.faq.content"
         ></article>
       </div>
     </div>
-
-    <div id="discord" class="my-10">
-      <discord-now :title="'Happening Now'" :subtitle="'Here is where the conversations are at...'" />
-    </div>
-
+    
 
     <!-- agenda -->
     <div id="learn" class="flex flex-wrap my-20">
@@ -63,11 +59,16 @@
         <h2>{{page.learn.title}}</h2>
         <span class="subtitle">{{page.learn.subtitle}}</span>
         <article
-          class="prose prose-lg max-w-full"
+          class="prose prose-lg max-w-full text-left"
           v-html="page.learn.content"
         ></article>
       </div>
       <tag-nav notitle class="mt-5"/>
+    </div>
+
+    <!-- Discord Map -->
+    <div id="discord" class="my-10">
+      <discord-now :title="'Happening Now'" :subtitle="'Here is where the conversations are at...'" />
     </div>
 
     <!-- Signals -->
@@ -78,21 +79,22 @@
         class="prose max-w-full"
         v-html="page.signals.content"
       ></article>
-    <!-- Animated sprites -->
-    <div class="card-grid-3 my-10">
-      <sprite
-        v-if="page.signal.feel"
-        v-bind="page.signal.feel"
-      ></sprite>
-      <sprite
-        v-if="page.signal.gotit"
-        v-bind="page.signal.gotit"
-      ></sprite>
-      <sprite
-        v-if="page.signal.move"
-        v-bind="page.signal.move"
-      ></sprite>
-    </div>
+      <!-- Animated sprites -->
+      <div class="card-grid-3 my-10">
+        <sprite
+          v-if="page.signal.feel"
+          v-bind="page.signal.feel"
+        ></sprite>
+        <sprite
+          v-if="page.signal.gotit"
+          v-bind="page.signal.gotit"
+        ></sprite>
+        <sprite
+          v-if="page.signal.move"
+          v-bind="page.signal.move"
+        ></sprite>
+      </div>
+
     <!-- share section -->
     <div id="share" class="my-10">
       <div>
