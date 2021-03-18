@@ -1,6 +1,6 @@
 ---
-title: Post unconf serenditipty
-excerpt: A supprise protest tour
+title: Post-unconf serendipity
+excerpt: A surprise protest tour
 date: 2020-09-22T00:00:00.000Z
 start_time: 2130
 end_time: "0000"

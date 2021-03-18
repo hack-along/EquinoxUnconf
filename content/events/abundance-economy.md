@@ -14,7 +14,7 @@ tags:
 ---
 Abundance should be for everyone. But how to achieve abundance on a planet with limited resources and an economic system based on scarcity and extractive behaviour?
 
-Join us for a facilitated discussion on values, sharing economy, circular economy and technologies that will make it happen be the end of this decennia.
+Join us for a facilitated discussion on values, sharing economy, circular economy and technologies that will make it happen by the end of this decennia.
 
 Computer 1 - complete with audio, low quality:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/60vkohKMN4A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

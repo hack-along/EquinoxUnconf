@@ -9,10 +9,12 @@
 5. run `gridsome develop` or `npm run dev` to start a local dev server at `http://localhost:8080`
 6. Happy coding 🎉🙌
 
+Note - if simply editing text content, it's enough to follow step 2 and edit. Bad practice though *tsk* *tsk*
+
 # Events
 
 There are two ways you can change or add events to the Unconference repo.
-First one is by adding makdown (`.md`) files to [Content / Events directory](https://github.com/hack-along/EquinoxUnconf/blob/master/content/events/) or by goint to [Netlify CMS admin pannel](https://unconference.hackalong.io/admin).
+First one is by adding makdown (`.md`) files to [Content / Events directory](https://github.com/hack-along/EquinoxUnconf/blob/master/content/events/) or by going to [Netlify CMS admin pannel](https://unconference.hackalong.io/admin).
 
 ### Adding Events via Github
 

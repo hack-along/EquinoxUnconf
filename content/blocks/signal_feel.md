@@ -3,4 +3,4 @@ title: Feel
 img: "feel.jpg"
 ---
 
-I resonate with what your saying
+I resonate with what you are saying
