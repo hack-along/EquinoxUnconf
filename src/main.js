@@ -18,7 +18,7 @@ import Card from '~/components/Card.vue'
 import EventContainer from '~/components/EventContainer.vue'
 import EventList from '~/components/EventList.vue'
 import TagNav from '~/components/TagNav.vue'
-import DiscordNow from '~/components/DiscordNow.vue'
+import Disconference from '~/components/Disconference.vue'
 
 import ThankYou from '~/components/ThankYouContainer.vue'
 import PerspectiveWrapper from '~/components/PerspectiveWrapper.vue' //animation for equinox
@@ -48,7 +48,7 @@ export default function (Vue, {
 
   Vue.component('IndexPage', IndexPage)
 
-  Vue.component('discord-now', DiscordNow)
+  Vue.component('disconference', Disconference)
 
   //add page parts as default components
   Vue.component('nav-bar', NavBar)
