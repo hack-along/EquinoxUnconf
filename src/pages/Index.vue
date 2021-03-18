@@ -50,15 +50,7 @@
         ></article>
       </div>
     </div>
-<<<<<<< HEAD
     
-=======
-
-    <div id="disconference" class="my-10">
-      <disconference :title="'Happening Now'" :subtitle="'Here is where the conversations are at...'" />
-    </div>
-
->>>>>>> fda3ae3506c1bc7dd0afca72a990f976a5b2bcb1
 
     <!-- agenda -->
     <div id="learn" class="flex flex-wrap my-20">
@@ -72,11 +64,6 @@
         ></article>
       </div>
       <tag-nav notitle class="mt-5"/>
-    </div>
-
-    <!-- Discord Map -->
-    <div id="discord" class="my-10">
-      <discord-now :title="'Happening Now'" :subtitle="'Here is where the conversations are at...'" />
     </div>
 
     <!-- Signals -->
