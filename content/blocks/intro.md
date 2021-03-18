@@ -15,4 +15,4 @@ Spring Equinox summons us with an inviting warmth. At this significant point in 
 
 Unconferences are loosely structured and coordinated by participants who abide by the law of two feet; go wherever you find value or better, create some! Our themes are open in ethos and non-prescribed, anyone can get involved in ways of their own choosing. This is a participatory meeting of hands, heads, and hearts in an open space to build collective capacity and common potential.
 
-</br><strong class="prose lg:prose-xl"> We are practicing self-organisation where no-one and everyone is a facilitator. </br> Please self-facillitate and join us this Equinox in a game of artful participation! </strong>
+</br><strong class="prose lg:prose-xl"> We are practicing self-organisation where no-one and everyone is a facilitator. </br> Please self-facilitate and join us this Equinox in a game of artful participation! </strong>

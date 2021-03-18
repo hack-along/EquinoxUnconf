@@ -18,6 +18,7 @@ import Card from '~/components/Card.vue'
 import EventContainer from '~/components/EventContainer.vue'
 import EventList from '~/components/EventList.vue'
 import TagNav from '~/components/TagNav.vue'
+import DiscordNow from '~/components/DiscordNow.vue'
 
 import ThankYou from '~/components/ThankYouContainer.vue'
 import PerspectiveWrapper from '~/components/PerspectiveWrapper.vue' //animation for equinox
@@ -29,9 +30,6 @@ import Sprite from '~/components/Sprite.vue'
 import VueScrollactive from 'vue-scrollactive';
 
 import VueKinesis from 'vue-kinesis'
-
-
-
 
 
 export default function (Vue, {
@@ -49,6 +47,8 @@ export default function (Vue, {
 
 
   Vue.component('IndexPage', IndexPage)
+
+  Vue.component('discord-now', DiscordNow)
 
   //add page parts as default components
   Vue.component('nav-bar', NavBar)
@@ -74,8 +74,6 @@ export default function (Vue, {
   Vue.use(VueKinesis);
   //initilize other plugins
   Vue.use(VueYouTubeEmbed) // To embed a video use:  <youtube :video-id="videoId"></youtube>
-
-
 
   Vue.filter('formatDate', function (value, format) {
     if (!value) return;

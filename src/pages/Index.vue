@@ -51,6 +51,11 @@
       </div>
     </div>
 
+    <div id="discord" class="my-10">
+      <discord-now :title="'Happening Now'" :subtitle="'Here is where the conversations are at...'" />
+    </div>
+
+
     <!-- agenda -->
     <div id="learn" class="flex flex-wrap my-20">
       <!-- share section -->
@@ -157,9 +162,10 @@ query Blocks {
 
 
 <script>
+import DiscordNow from '../components/DiscordNow.vue';
 import PerspectiveWrapper from "../components/PerspectiveWrapper.vue";
 export default {
-  components: { PerspectiveWrapper },
+  components: { PerspectiveWrapper, DiscordNow },
   metaInfo() {
     return {
       meta: [
