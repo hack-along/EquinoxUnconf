@@ -46,12 +46,18 @@ export default {
   created: function () {
     console.log("Starting connection to the disconference server");
 
-    this.connection = new WebSocket("ws://disconference.herokuapp.com");
+    this.connection = new WebSocket("ws://disconference.joshafai.uber.space");
     let self = this;
 
     this.connection.onmessage = function (event) {
       //console.log("received : " + event.data);
-      //parse data
+      
+      // self.programme = self.discorddata = Object.assign(
+      //   {},
+      //   JSON.parse(event.data)
+      // );
+
+
       self.discorddata = Object.assign(
         {},
         JSON.parse(event.data)
