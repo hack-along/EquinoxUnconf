@@ -50,8 +50,10 @@
         ></article>
       </div>
     </div>
-    
 
+    <!-- disconference status widget -->
+    <disconference />
+    
     <!-- agenda -->
     <div id="learn" class="flex flex-wrap my-20">
       <!-- share section -->

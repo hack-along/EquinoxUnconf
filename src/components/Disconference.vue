@@ -6,8 +6,8 @@
     </div>
     <ul class="pl-1">
       <li v-for="(room,index) in rooms" :key="index">
-        <h3>{{ discorddata[room].name }}</h3>
-   
+        <h3>{{ discorddata[room].name }} <button @click="openDiscord(discorddata[room].invite)">Join</button> </h3>
+        
           <span
             v-for="(participant,index) in discorddata[room].participants"
             :key="index"
@@ -68,18 +68,16 @@ export default {
       console.log("Successfully connected to the disconference server...");
     };
   },
+  methods:{
+      openDiscord: function (invite) {   
+          window.open("https://discord.gg/"+invite, "_blank");    
+      }
+    }
 };
+
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
 
 .avatar {
   vertical-align: middle;
