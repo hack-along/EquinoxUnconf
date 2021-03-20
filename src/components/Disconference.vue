@@ -46,7 +46,7 @@ export default {
   created: function () {
     console.log("Starting connection to the disconference server");
 
-    this.connection = new WebSocket("ws://disconference.joshafai.uber.space");
+    this.connection = new WebSocket("ws://128.199.39.200:3001");
     let self = this;
 
     this.connection.onmessage = function (event) {

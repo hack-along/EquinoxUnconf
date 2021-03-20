@@ -11,11 +11,12 @@
     "discord.js": "^12.5.1",
     "fs": "0.0.1-security",
     "gridsome": "^0.7.20",
-    "vue-kinesis": "^1.2.3",
     "socket.io-client": "^4.0.0",
+    "vue-kinesis": "^1.2.3",
     "vue-scrollactive": "^0.9.3",
     "vue-socket.io": "^3.0.10",
-    "vue-youtube-embed": "^2.2.2"
+    "vue-youtube-embed": "^2.2.2",
+    "websocket": "^1.0.33"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
