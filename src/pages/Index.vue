@@ -52,7 +52,7 @@
     </div>
 
     <!-- disconference status widget -->
-    <disconference />
+    <!-- <disconference /> -->
     
     <!-- agenda -->
     <div id="learn" class="flex flex-wrap my-20">
