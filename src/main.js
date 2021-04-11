@@ -19,6 +19,8 @@ import EventContainer from '~/components/EventContainer.vue'
 import EventList from '~/components/EventList.vue'
 import TagNav from '~/components/TagNav.vue'
 import Disconference from '~/components/Disconference.vue'
+import ForceGraph from '~/components/ForceGraph.vue'
+import TimelineGraph from '~/components/TimelineGraph.vue'
 
 import ThankYou from '~/components/ThankYouContainer.vue'
 import PerspectiveWrapper from '~/components/PerspectiveWrapper.vue' //animation for equinox
@@ -37,6 +39,7 @@ export default function (Vue, {
   head,
   isClient
 }) {
+  global.vm = this; //Define your app variable globally
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('LayoutHero', HeroLayout)
@@ -49,6 +52,9 @@ export default function (Vue, {
   Vue.component('IndexPage', IndexPage)
 
   Vue.component('disconference', Disconference)
+
+  Vue.component('forcegraph', ForceGraph)
+  Vue.component('timelinegraph', TimelineGraph)
 
   //add page parts as default components
   Vue.component('nav-bar', NavBar)

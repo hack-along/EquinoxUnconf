@@ -1,0 +1,932 @@
+[
+    {
+        "from": "%u2728winter-solstice-circle",
+        "to": "Abundance Pathways",
+        "value": "1"
+    },
+    {
+        "from": "Intercepts",
+        "to": "Stellar room",
+        "value": "1"
+    },
+    {
+        "from": "Stellar room",
+        "to": "Intercepts",
+        "value": "1"
+    },
+    {
+        "from": "Iterjection",
+        "to": "Solar Room",
+        "value": "1"
+    },
+    {
+        "from": "Iterjection",
+        "to": "Solar Room",
+        "value": "1"
+    },
+    {
+        "from": "Iterjection",
+        "to": "Solar Room",
+        "value": "1"
+    },
+    {
+        "from": "Iterjection",
+        "to": "Solar Room",
+        "value": "1"
+    },
+    {
+        "from": "Interactions of trust",
+        "to": "Iterjection",
+        "value": "1"
+    },
+    {
+        "from": "Symbiogenesis of Thoughts",
+        "to": "mental illness as part of the ecosystem",
+        "value": "1"
+    },
+    {
+        "from": "mental illness as part of the ecosystem",
+        "to": "Symbiogenesis of Thoughts",
+        "value": "1"
+    },
+    {
+        "from": "Symbiogenesis of Thoughts",
+        "to": "mental illness as part of the ecosystem",
+        "value": "1"
+    },
+    {
+        "from": "mental illness as part of the ecosystem",
+        "to": "Symbiogenesis of Thoughts",
+        "value": "1"
+    },
+    {
+        "from": "Symbiogenesis of Thoughts",
+        "to": "mental illness as part of the ecosystem",
+        "value": "1"
+    },
+    {
+        "from": "mental illness as part of the ecosystem",
+        "to": "Lunar Room",
+        "value": "1"
+    },
+    {
+        "from": "Lunar Room",
+        "to": "mental qualities inherent in an ecology%3F",
+        "value": "1"
+    },
+    {
+        "from": "going meta",
+        "to": "Symbiogenesis of Thoughts",
+        "value": "1"
+    },
+    {
+        "from": "going meta",
+        "to": "Symbiogenesis of Thoughts",
+        "value": "1"
+    },
+    {
+        "from": "Symbiogenesis of Thoughts",
+        "to": "Lunar Room",
+        "value": "1"
+    },
+    {
+        "from": "Trust and digital networks",
+        "to": "going meta",
+        "value": "1"
+    },
+    {
+        "from": "going meta",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "going meta",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "going meta",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "AI for artifacts",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "AI for artifacts",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "going meta",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "going meta",
+        "to": "1on1",
+        "value": "1"
+    },
+    {
+        "from": "1on1",
+        "to": "going meta",
+        "value": "1"
+    },
+    {
+        "from": "going meta",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "going meta",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Memory and Things",
+        "value": "1"
+    },
+    {
+        "from": "Play%3A Harmony/Dissonance",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Memory and Things",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Memory and Things",
+        "value": "1"
+    },
+    {
+        "from": "Memory and Things",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Memory and Things",
+        "value": "1"
+    },
+    {
+        "from": "Memory and Things",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Memory and Things",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Memory and Things",
+        "value": "1"
+    },
+    {
+        "from": "Memory and Things",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Memory and Things",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Memory and Things",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Memory and Things",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Memory and Things",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Memory and Things",
+        "to": "Step into your agency%2C and create a space%21",
+        "value": "1"
+    },
+    {
+        "from": "Rename Me%21",
+        "to": "Abnormal psychology%3F",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Abnormal psychology%3F",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Abnormal psychology%3F",
+        "value": "1"
+    },
+    {
+        "from": "Abnormal psychology%3F",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Abnormal psychology%3F",
+        "value": "1"
+    },
+    {
+        "from": "Abnormal psychology%3F",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Memory and Things",
+        "to": "Abnormal psychology%3F",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Abnormal psychology%3F",
+        "value": "1"
+    },
+    {
+        "from": "Memory and Things",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Abnormal psychology%3F",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Abnormal psychology%3F",
+        "value": "1"
+    },
+    {
+        "from": "Abnormal psychology%3F",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "%u273A",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Tarrot for Skeptics",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Abnormal psychology%3F",
+        "value": "1"
+    },
+    {
+        "from": "%u273A",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Tarrot for Skeptics",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "CONFESSIONAL",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Abnormal psychology%3F",
+        "value": "1"
+    },
+    {
+        "from": "Abnormal psychology%3F",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "step into your agency and create a space",
+        "value": "1"
+    },
+    {
+        "from": "Abnormal psychology%3F",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Transcending Capitalism %28Tools%29",
+        "value": "1"
+    },
+    {
+        "from": "Transcending Capitalism %28Tools%29",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Abnormal psychology%3F",
+        "value": "1"
+    },
+    {
+        "from": "Digital Elves",
+        "to": "Zenti",
+        "value": "1"
+    },
+    {
+        "from": "Zenti",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "step into your agency and create a space",
+        "to": "Commons%2C incentives%2C money%2C politics",
+        "value": "1"
+    },
+    {
+        "from": "Commons%2C incentives%2C money%2C politics",
+        "to": "Transcending Capitalism %28Tools%29",
+        "value": "1"
+    },
+    {
+        "from": "Zenti",
+        "to": "Digital Elves",
+        "value": "1"
+    },
+    {
+        "from": "Metamorphosis",
+        "to": "Transcending Capitalism %28Tools%29",
+        "value": "1"
+    },
+    {
+        "from": "Transcending Capitalism %28Tools%29",
+        "to": "Metamorphosis",
+        "value": "1"
+    },
+    {
+        "from": "Metamorphosis",
+        "to": "Transcending Capitalism %28Tools%29",
+        "value": "1"
+    },
+    {
+        "from": "Rename me%21",
+        "to": "Metamorphosis",
+        "value": "1"
+    },
+    {
+        "from": "Metamorphosis",
+        "to": "Transcending Capitalism %28Tools%29",
+        "value": "1"
+    },
+    {
+        "from": "Transcending Capitalism %28Tools%29",
+        "to": "Metamorphosis",
+        "value": "1"
+    },
+    {
+        "from": "Metamorphosis",
+        "to": "Planting a Whelm Garden",
+        "value": "1"
+    },
+    {
+        "from": "Metamorphosis",
+        "to": "Transcending Capitalism %28Tools%29",
+        "value": "1"
+    },
+    {
+        "from": "Metamorphosis",
+        "to": "Planting a Whelm Garden",
+        "value": "1"
+    },
+    {
+        "from": "Planting a Whelm Garden",
+        "to": "Transcending Capitalism %28Tools%29",
+        "value": "1"
+    },
+    {
+        "from": "Metamorphosis",
+        "to": "Transcending Capitalism %28Tools%29",
+        "value": "1"
+    },
+    {
+        "from": "%u273A",
+        "to": "Planting a Whelm Garden",
+        "value": "1"
+    },
+    {
+        "from": "Protocol Economics",
+        "to": "INTERSECT",
+        "value": "1"
+    },
+    {
+        "from": "INTERSECT",
+        "to": "Regenerative Strategies",
+        "value": "1"
+    },
+    {
+        "from": "Regenerative Strategies",
+        "to": "INTERSECT",
+        "value": "1"
+    },
+    {
+        "from": "INTERSECT",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "Regenerative Strategies",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "Regenerative Strategies",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "Transgenerational integration",
+        "to": "Community Tools/Networks + P2P Foundations",
+        "value": "1"
+    },
+    {
+        "from": "INTERSECT",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "Transgenerational integration",
+        "to": "Community Tools/Networks + P2P Foundations",
+        "value": "1"
+    },
+    {
+        "from": "Community Tools/Networks + P2P Foundations",
+        "to": "Awakening from the Meaning Crisis",
+        "value": "1"
+    },
+    {
+        "from": "Awakening from the Meaning Crisis",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "Community Tools/Networks + P2P Foundations",
+        "to": "Awakening from the Meaning Crisis",
+        "value": "1"
+    },
+    {
+        "from": "Awakening from the Meaning Crisis",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "Community Tools/Networks + P2P Foundations",
+        "to": "Awakening from the Meaning Crisis",
+        "value": "1"
+    },
+    {
+        "from": "Transgenerational integration",
+        "to": "Awakening from the Meaning Crisis",
+        "value": "1"
+    },
+    {
+        "from": "Awakening from the Meaning Crisis",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "Transgenerational integration",
+        "to": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "value": "1"
+    },
+    {
+        "from": "Transgenerational integration",
+        "to": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "value": "1"
+    },
+    {
+        "from": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "Transgenerational integration",
+        "to": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "value": "1"
+    },
+    {
+        "from": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "Transgenerational integration",
+        "to": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "value": "1"
+    },
+    {
+        "from": "Transgenerational integration",
+        "to": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "value": "1"
+    },
+    {
+        "from": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "to": "Humans.. Natural or Unnatural%3F",
+        "value": "1"
+    },
+    {
+        "from": "Transgenerational integration",
+        "to": "Humans.. Natural or Unnatural%3F",
+        "value": "1"
+    },
+    {
+        "from": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "to": "Humans.. Natural or Unnatural%3F",
+        "value": "1"
+    },
+    {
+        "from": "Awakening  from %22Awakening from the Meaning Crisis%22",
+        "to": "Humans.. Natural or Unnatural%3F",
+        "value": "1"
+    },
+    {
+        "from": "Humans.. Natural or Unnatural%3F",
+        "to": "Regenerative Strategies",
+        "value": "1"
+    },
+    {
+        "from": "%22trustlessness%22",
+        "to": "Humans.. Natural or Unnatural%3F",
+        "value": "1"
+    },
+    {
+        "from": "Humans.. Natural or Unnatural%3F",
+        "to": "%22trustlessness%22",
+        "value": "1"
+    },
+    {
+        "from": "Generative Processes",
+        "to": "strange tangents",
+        "value": "1"
+    },
+    {
+        "from": "Generative Processes",
+        "to": "strange tangents",
+        "value": "1"
+    },
+    {
+        "from": "strange tangents",
+        "to": "Generative Processes",
+        "value": "1"
+    },
+    {
+        "from": "Generative Processes",
+        "to": "strange tangents",
+        "value": "1"
+    },
+    {
+        "from": "strange tangents",
+        "to": "Generative Processes",
+        "value": "1"
+    },
+    {
+        "from": "strange tangents",
+        "to": "Generative Processes",
+        "value": "1"
+    },
+    {
+        "from": "strange tangents",
+        "to": "Transgenerational integration",
+        "value": "1"
+    },
+    {
+        "from": "strange tangents",
+        "to": "using subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "strange tangents",
+        "to": "using subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "using subjective truths",
+        "to": "Regenerative Strategies",
+        "value": "1"
+    },
+    {
+        "from": "strange tangents",
+        "to": "using subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "strange tangents",
+        "to": "using subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "Regenerative Strategies",
+        "to": "this-digital-space-is-not-scarce",
+        "value": "1"
+    },
+    {
+        "from": "this-digital-space-is-not-scarce",
+        "to": "step into your agency and create a space",
+        "value": "1"
+    },
+    {
+        "from": "step into your agency and create a space",
+        "to": "using subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "strange tangents",
+        "to": "Generative Processes",
+        "value": "1"
+    },
+    {
+        "from": "strange tangents",
+        "to": "using subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "Generative Processes",
+        "to": "using subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "Generative Processes",
+        "to": "using subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "using subjective truths",
+        "to": "Generative Processes",
+        "value": "1"
+    },
+    {
+        "from": "Generative Processes",
+        "to": "using subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "NapRoom",
+        "to": "Generative Processes",
+        "value": "1"
+    },
+    {
+        "from": "NapRoom",
+        "to": "%u273A",
+        "value": "1"
+    },
+    {
+        "from": "using subjective truths",
+        "to": "Generative Processes",
+        "value": "1"
+    },
+    {
+        "from": "%u273A",
+        "to": "Generative Processes",
+        "value": "1"
+    },
+    {
+        "from": "Generative Processes",
+        "to": "using subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "experiencing subjective truths",
+        "to": "I like good music",
+        "value": "1"
+    },
+    {
+        "from": "I like good music",
+        "to": "Regenerative Strategies",
+        "value": "1"
+    },
+    {
+        "from": "Regenerative Strategies",
+        "to": "experiencing subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "experiencing subjective truths",
+        "to": "I don%27t like bad music",
+        "value": "1"
+    },
+    {
+        "from": "I don%27t like bad music",
+        "to": "experiencing subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "experiencing subjective truths",
+        "to": "I don%27t like bad music",
+        "value": "1"
+    },
+    {
+        "from": "I don%27t like opinions forced on me",
+        "to": "experiencing subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "Unlearning %3D%3E Relearning",
+        "to": "experiencing subjective truths",
+        "value": "1"
+    },
+    {
+        "from": "experiencing subjective truths",
+        "to": "Unlearning %3D%3E Relearning",
+        "value": "1"
+    },
+    {
+        "from": "Unlearning %3D%3E Relearning",
+        "to": "Hyperstition",
+        "value": "1"
+    },
+    {
+        "from": "Hyperstition",
+        "to": "personal gig",
+        "value": "1"
+    },
+    {
+        "from": "personal gig",
+        "to": "Money is transdisciplinary",
+        "value": "1"
+    },
+    {
+        "from": "Money is transdisciplinary",
+        "to": "Unlearning %3D%3E Relearning",
+        "value": "1"
+    },
+    {
+        "from": "Money is transdisciplinary",
+        "to": "Digital elves",
+        "value": "1"
+    },
+    {
+        "from": "Money is transdisciplinary",
+        "to": "Digital elves",
+        "value": "1"
+    },
+    {
+        "from": "Renamed your channel%2C watcha gonna do%3F",
+        "to": "Digital elves",
+        "value": "1"
+    },
+    {
+        "from": "Why does money have value%3F",
+        "to": "Digital elves",
+        "value": "1"
+    },
+    {
+        "from": "Openness and Connection",
+        "to": "Digital elves",
+        "value": "1"
+    },
+    {
+        "from": "Digital elves",
+        "to": "Openness and Connection",
+        "value": "1"
+    },
+    {
+        "from": "Digital elves",
+        "to": "NapRoom",
+        "value": "1"
+    },
+    {
+        "from": "NapRoom",
+        "to": "Openness and Connection",
+        "value": "1"
+    },
+    {
+        "from": "Digital elves",
+        "to": "Openness and Connection",
+        "value": "1"
+    },
+    {
+        "from": "Openness and Connection",
+        "to": "Digital elves",
+        "value": "1"
+    },
+    {
+        "from": "Openness and Connection",
+        "to": "Digital elves",
+        "value": "1"
+    },
+    {
+        "from": "Openness and Connection",
+        "to": "Digital elves",
+        "value": "1"
+    },
+    {
+        "from": "Openness and Connection",
+        "to": "Feelz circle",
+        "value": "1"
+    },
+    {
+        "from": "Feelz circle",
+        "to": "Embodied sense-making",
+        "value": "1"
+    },
+    {
+        "from": "Embodied sense-making",
+        "to": "Commons%2C incentives%2C money%2C politics",
+        "value": "1"
+    },
+    {
+        "from": "Commons%2C incentives%2C money%2C politics",
+        "to": "Complexity",
+        "value": "1"
+    },
+    {
+        "from": "Complexity",
+        "to": "Feelz circle",
+        "value": "1"
+    },
+    {
+        "from": "Feelz circle",
+        "to": "Openness and Connection",
+        "value": "1"
+    },
+    {
+        "from": "Openness and Connection",
+        "to": "NapRoom",
+        "value": "1"
+    },
+    {
+        "from": "NapRoom",
+        "to": "CONFESSIONAL",
+        "value": "1"
+    },
+    {
+        "from": "CONFESSIONAL",
+        "to": "this-digital-space-is-not-scarce",
+        "value": "1"
+    }
+]

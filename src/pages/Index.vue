@@ -52,8 +52,8 @@
     </div>
 
     <!-- disconference status widget -->
-     <disconference /> 
-    
+    <!-- <disconference /> -->
+   
     <!-- agenda -->
     <div id="learn" class="flex flex-wrap my-20">
       <!-- share section -->
@@ -65,8 +65,12 @@
           v-html="page.learn.content"
         ></article>
       </div>
-      <tag-nav notitle class="mt-5"/>
+      
     </div>
+    <forcegraph/>
+
+
+    
 
     <!-- Signals -->
       <h2 class="mt-20">{{page.signals.title}}</h2>
@@ -162,9 +166,11 @@ query Blocks {
 
 <script>
 import Disconference from '../components/Disconference.vue';
+import ForceGraph from '../components/ForceGraph.vue';
+import TimelineGraph from '../components/TimelineGraph.vue';
 import PerspectiveWrapper from "../components/PerspectiveWrapper.vue";
 export default {
-  components: { PerspectiveWrapper, Disconference },
+  components: { PerspectiveWrapper, Disconference, ForceGraph,TimelineGraph  },
   metaInfo() {
     return {
       meta: [
