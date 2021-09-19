@@ -9,7 +9,7 @@
           to="/"
           :title="$static.metadata.siteName"
         >
-          Equinox 20/03/2021
+          Equinox 22/09/2021
           <!-- <g-image src="../../static/logo.svg" width="50" height="50" alt="logo" fit="outside" /> -->
         </g-link>
       </div>
