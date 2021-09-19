@@ -1,6 +1,6 @@
 ---
-title: Spring Equinox Unconference
-subtitle: 20th March 2021
+title: Fall Equinox Unconference
+subtitle: 22th September 2021
 ---
 
 > #### Equinox
