@@ -106,7 +106,17 @@ module.exports = {
     //   .use(BundleAnalyzerPlugin, [{
     //     analyzerMode: 'static'
     //   }])
+
     config.plugin('MomentLocalesPlugin').use(MomentLocalesPlugin())
     config.resolve.alias.set('@images', '@/assets/img')
+    config.externals(  (context, request, callback) => {
+      if (/xlsx|canvg|pdfmake/.test(request)) {
+        return callback(null, "commonjs " + request);
+      }
+      callback();
+    })
+
   }
 }
+
+

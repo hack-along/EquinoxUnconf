@@ -19,7 +19,6 @@ import EventContainer from '~/components/EventContainer.vue'
 import EventList from '~/components/EventList.vue'
 import TagNav from '~/components/TagNav.vue'
 import Disconference from '~/components/Disconference.vue'
-import ForceGraph from '~/components/ForceGraph.vue'
 import TimelineGraph from '~/components/TimelineGraph.vue'
 
 import ThankYou from '~/components/ThankYouContainer.vue'
@@ -53,7 +52,7 @@ export default function (Vue, {
 
   Vue.component('disconference', Disconference)
 
-  Vue.component('forcegraph', ForceGraph)
+  Vue.component('forcegraph', () => import('~/components/ForceGraph.vue'))
   Vue.component('timelinegraph', TimelineGraph)
 
   //add page parts as default components
