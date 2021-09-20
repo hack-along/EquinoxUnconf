@@ -2,7 +2,7 @@
   <LayoutCurtains>
     <template slot="hero">
 
-      <perspective-wrapper></perspective-wrapper>
+      <hero-curtains :bg="heroBG"></hero-curtains>
 
     </template>
     <!-- intro section using grapQL -->
@@ -39,7 +39,10 @@
     </div>
 
     <!-- Event details -->
-    <div id="FAQ" class="my-10"> 
+    <div
+      id="FAQ"
+      class="my-10"
+    >
       <div>
         <h2>{{page.faq.title}}</h2>
         <span class="subtitle">{{page.faq.subtitle}}</span>
@@ -53,9 +56,12 @@
 
     <!-- disconference status widget -->
     <!-- <disconference /> -->
-   
+
     <!-- agenda -->
-    <div id="learn" class="flex flex-wrap my-20">
+    <div
+      id="learn"
+      class="flex flex-wrap my-20"
+    >
       <!-- share section -->
       <div>
         <h2>{{page.learn.title}}</h2>
@@ -65,39 +71,39 @@
           v-html="page.learn.content"
         ></article>
       </div>
-      
+
     </div>
-    <forcegraph/>
-
-
-    
+    <forcegraph />
 
     <!-- Signals -->
-      <h2 class="mt-20">{{page.signals.title}}</h2>
-      <span class="subtitle">{{page.signals.subtitle}}</span>
-      <article
-        v-if="page.signals.content"
-        class="prose max-w-full"
-        v-html="page.signals.content"
-      ></article>
-      <!-- Animated sprites -->
-      <div class="card-grid-3 my-10">
-        <sprite
-          v-if="page.signal.feel"
-          v-bind="page.signal.feel"
-        ></sprite>
-        <sprite
-          v-if="page.signal.gotit"
-          v-bind="page.signal.gotit"
-        ></sprite>
-        <sprite
-          v-if="page.signal.move"
-          v-bind="page.signal.move"
-        ></sprite>
-      </div>
+    <h2 class="mt-20">{{page.signals.title}}</h2>
+    <span class="subtitle">{{page.signals.subtitle}}</span>
+    <article
+      v-if="page.signals.content"
+      class="prose max-w-full"
+      v-html="page.signals.content"
+    ></article>
+    <!-- Animated sprites -->
+    <div class="card-grid-3 my-10">
+      <sprite
+        v-if="page.signal.feel"
+        v-bind="page.signal.feel"
+      ></sprite>
+      <sprite
+        v-if="page.signal.gotit"
+        v-bind="page.signal.gotit"
+      ></sprite>
+      <sprite
+        v-if="page.signal.move"
+        v-bind="page.signal.move"
+      ></sprite>
+    </div>
 
     <!-- share section -->
-    <div id="share" class="my-10">
+    <div
+      id="share"
+      class="my-10"
+    >
       <div>
         <h2>{{page.share.title}}</h2>
         <span class="subtitle">{{page.share.subtitle}}</span>
@@ -165,12 +171,12 @@ query Blocks {
 
 
 <script>
-import Disconference from '../components/Disconference.vue';
-import ForceGraph from '../components/ForceGraph.vue';
-import TimelineGraph from '../components/TimelineGraph.vue';
+import Disconference from "../components/Disconference.vue";
+import ForceGraph from "../components/ForceGraph.vue";
+import TimelineGraph from "../components/TimelineGraph.vue";
 import PerspectiveWrapper from "../components/PerspectiveWrapper.vue";
 export default {
-  components: { PerspectiveWrapper, Disconference, ForceGraph,TimelineGraph  },
+  components: { PerspectiveWrapper, Disconference, ForceGraph, TimelineGraph },
   metaInfo() {
     return {
       meta: [
@@ -216,7 +222,7 @@ export default {
   computed: {
     getCoverImage() {
       // @TODO: ADD A CARD FALLBACK IMG
-      return this.$static.metadata.siteUrl + "card2021.jpg";
+      return this.$static.metadata.siteUrl + "card2021_2.jpg";
     },
     getUrl() {
       return this.$static.metadata.siteUrl;

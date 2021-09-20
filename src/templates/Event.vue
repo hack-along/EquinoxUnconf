@@ -103,7 +103,7 @@ export default {
       let img =
         this.$page.event.thumbnail !== null
           ? this.$static.metadata.siteUrl + this.$page.event.thumbnail
-          : this.$static.metadata.siteUrl + "card2021.jpg";
+          : this.$static.metadata.siteUrl + "card2021_2.jpg";
       return img;
     },
     getUrl() {

@@ -8,7 +8,7 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@amcharts/amcharts4": "^4.10.17",
+    "@amcharts/amcharts4": "^4.10.22",
     "discord.js": "^12.5.1",
     "fs": "0.0.1-security",
     "gridsome": "^0.7.20",
@@ -32,7 +32,7 @@
     "moment-locales-webpack-plugin": "^1.2.0",
     "moment-timezone": "^0.5.31",
     "netlify-cms": "^2.10.56",
-    "node-sass": "^4.14.1",
+    "sass": "^1.41.1",
     "sass-loader": "^8.0.2",
     "tailwindcss": "^1.7.6",
     "webpack-bundle-analyzer": "^3.8.0"
