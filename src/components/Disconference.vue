@@ -111,7 +111,7 @@ export default {
     async fetchDiscordData() {
       console.log("Getting data from disconference server");
 
-      const client = new GraphQLClient("http://disconference.hackalong.io");
+      const client = new GraphQLClient("//disconference.hackalong.io");
       client
         .request(
           `
