@@ -38,7 +38,7 @@
 </template>
 
 <script>
-const fetch = require("node-fetch");
+
 export default {
   props: {
     title: {
@@ -101,48 +101,48 @@ export default {
   },
   methods:{
      fetchData: function () {  
-       fetch('http://disconference.hackalong.io', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ query: `
-              query {
-                programme {
-                  time,
-                  name,
-                  topic,
-                  server
-                }
-              }` 
-            }),
-          })
-          .then(res => res.json())
-          .then(res => {
-            this.programme = res.data.programme
-          });
+      //  fetch('http://disconference.hackalong.io', {
+      //       method: 'POST',
+      //       headers: { 'Content-Type': 'application/json' },
+      //       body: JSON.stringify({ query: `
+      //         query {
+      //           programme {
+      //             time,
+      //             name,
+      //             topic,
+      //             server
+      //           }
+      //         }` 
+      //       }),
+      //     })
+      //     .then(res => res.json())
+      //     .then(res => {
+      //       this.programme = res.data.programme
+      //     });
 
-            fetch('http://disconference.hackalong.io', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ query: `
-              query{
-                latest{
-                  rooms{
-                    name
-                    server
-                    invite
-                    participants{
-                      name
-                      avatar
-                    }
-                  }
-                }
-              }` 
-            }),
-          })
-          .then( res => res.json())
-          .then( res => {
-            this.status = res.data.latest.rooms
-          });
+      //       fetch('http://disconference.hackalong.io', {
+      //       method: 'POST',
+      //       headers: { 'Content-Type': 'application/json' },
+      //       body: JSON.stringify({ query: `
+      //         query{
+      //           latest{
+      //             rooms{
+      //               name
+      //               server
+      //               invite
+      //               participants{
+      //                 name
+      //                 avatar
+      //               }
+      //             }
+      //           }
+      //         }` 
+      //       }),
+      //     })
+      //     .then( res => res.json())
+      //     .then( res => {
+      //       this.status = res.data.latest.rooms
+      //     });
      },  
      addZero: function(i) {
       if (i < 10) {
