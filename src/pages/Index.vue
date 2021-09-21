@@ -18,6 +18,9 @@
       ></article>
     </div>
 
+    <!-- disconference status widget -->
+    <disconference />
+
     <!-- intro cards -->
     <div
       v-if="page.card"
@@ -54,8 +57,7 @@
       </div>
     </div>
 
-    <!-- disconference status widget -->
-    <!-- <disconference /> -->
+   
 
     <!-- agenda -->
     <div
