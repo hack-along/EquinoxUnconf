@@ -13,6 +13,7 @@
     "fs": "0.0.1-security",
     "gridsome": "^0.7.20",
     "isomorphic-fetch": "^3.0.0",
+    "node-fetch": "^2.6.4",
     "socket.io-client": "^4.0.0",
     "vue-kinesis": "^1.2.3",
     "vue-scrollactive": "^0.9.3",

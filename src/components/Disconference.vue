@@ -38,6 +38,7 @@
 </template>
 
 <script>
+const fetch = require("node-fetch");
 export default {
   props: {
     title: {
