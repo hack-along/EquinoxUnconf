@@ -11,6 +11,7 @@
     "@amcharts/amcharts4": "^4.10.22",
     "discord.js": "^12.5.1",
     "fs": "0.0.1-security",
+    "graphql-request": "^3.5.0",
     "gridsome": "^0.7.20",
     "vue-kinesis": "^1.2.3",
     "vue-scrollactive": "^0.9.3",

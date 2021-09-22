@@ -18,8 +18,8 @@ import Card from '~/components/Card.vue'
 import EventContainer from '~/components/EventContainer.vue'
 import EventList from '~/components/EventList.vue'
 import TagNav from '~/components/TagNav.vue'
-import Disconference from '~/components/Disconference.vue'
-import TimelineGraph from '~/components/TimelineGraph.vue'
+//import Disconference from '~/components/Disconference.vue'
+//import TimelineGraph from '~/components/TimelineGraph.vue'
 
 import ThankYou from '~/components/ThankYouContainer.vue'
 import PerspectiveWrapper from '~/components/PerspectiveWrapper.vue' //animation for equinox
@@ -50,10 +50,10 @@ export default function (Vue, {
 
   Vue.component('IndexPage', IndexPage)
 
-  Vue.component('disconference', Disconference)
+  Vue.component('disconference', () => import('~/components/Disconference.vue'))
 
   Vue.component('forcegraph', () => import('~/components/ForceGraph.vue'))
-  Vue.component('timelinegraph', TimelineGraph)
+  //Vue.component('timelinegraph', TimelineGraph)
 
   //add page parts as default components
   Vue.component('nav-bar', NavBar)

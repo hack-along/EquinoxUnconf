@@ -57,8 +57,6 @@
       </div>
     </div>
 
-   
-
     <!-- agenda -->
     <div
       id="learn"
@@ -173,12 +171,7 @@ query Blocks {
 
 
 <script>
-import Disconference from "../components/Disconference.vue";
-import ForceGraph from "../components/ForceGraph.vue";
-import TimelineGraph from "../components/TimelineGraph.vue";
-import PerspectiveWrapper from "../components/PerspectiveWrapper.vue";
 export default {
-  components: { PerspectiveWrapper, Disconference, ForceGraph, TimelineGraph },
   metaInfo() {
     return {
       meta: [
