@@ -19,7 +19,7 @@
     </div>
 
     <!-- disconference status widget -->
-    <disconference />
+    <!-- <disconference /> -->
 
     <!-- intro cards -->
     <div
