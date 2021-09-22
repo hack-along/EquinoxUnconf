@@ -26,8 +26,9 @@
         class="room"
         v-for="(room,index) in status"
         :key="index"
+        @click="openDiscord(room.invite)"
       >
-        <h3>{{ room.name }} <button @click="openDiscord(room.invite)">Join</button> </h3>
+        <h3>{{ room.name }} <i>({{room.server}})</i><button class="button">click to join</button> </h3> 
 
         <span
           class="float"
@@ -48,7 +49,7 @@
 
 <script>
 import { GraphQLClient } from "graphql-request";
-
+const  client = new GraphQLClient("//disconference.hackalong.io");
 export default {
   props: {
     title: {
@@ -75,7 +76,7 @@ export default {
       function () {
         this.fetchDiscordData();
       }.bind(this),
-      2000
+      3000
     );
 
     // this.fetchData()
@@ -109,28 +110,20 @@ export default {
   },
   methods: {
     async fetchDiscordData() {
-      console.log("Getting data from disconference server");
-
-      const client = new GraphQLClient("//disconference.hackalong.io");
+      // console.log("Getting data from disconference server");
       client
         .request(
-          `
-              query{
-                latest{
-                  rooms{
-                    name
-                    server
-                    invite
-                    participants{
-                      name
-                      avatar
-                    }
-                  }
+          ` query {
+                programme {
+                  time,
+                  name,
+                  topic,
+                  server
                 }
               }`
         )
         .then((data) => {
-          this.programme = data;
+          this.programme = data.programme;
         });
       client
         .request(
@@ -181,5 +174,11 @@ export default {
   padding: 5px 5px 70px 5px;
   margin: 5px;
   border: dashed;
+}
+
+.button{
+  border:solid;
+  background-color:red;
+  float:right;
 }
 </style>

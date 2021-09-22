@@ -19,7 +19,7 @@
     </div>
 
     <!-- disconference status widget -->
-    <!-- <disconference /> -->
+    <disconference />
 
     <!-- intro cards -->
     <div
@@ -73,7 +73,9 @@
       </div>
 
     </div>
-    <forcegraph />
+    
+    
+    <!-- <forcegraph /> -->
 
     <!-- Signals -->
     <h2 class="mt-20">{{page.signals.title}}</h2>
