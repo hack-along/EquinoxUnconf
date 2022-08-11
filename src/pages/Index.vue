@@ -18,8 +18,8 @@
       ></article>
     </div>
 
-    <!-- disconference status widget -->
-    <disconference />
+    <!-- disconference status widget
+    <disconference /> -->
 
     <!-- intro cards -->
     <div

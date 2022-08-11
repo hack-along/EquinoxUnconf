@@ -26,5 +26,5 @@ This track has no agenda; channel names change as "dynamic signals" calling your
 
 #### Themes
 
-Themes are emergent. Check out what happened during the 2021 spring equinox.
+Themes are emergent. Check out what happened during the previous equinox gatherings.
 </br>

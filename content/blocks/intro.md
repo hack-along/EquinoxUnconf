@@ -1,6 +1,6 @@
 ---
 title: Fall Equinox Unconference
-subtitle: 22nd September 2021
+subtitle: 23nd September 2022
 ---
 
 > #### Equinox
